@@ -1,0 +1,107 @@
+*{
+    color: white;
+}
+@font-face {
+    font-family: "Amatic";
+    src: url("Fonts/AmaticSC-Regular.ttf");
+}
+@font-face {
+    font-family: "WorkSans";
+    src: url("Fonts/WorkSans.ttf");
+}
+@font-face {
+    font-family: "Fragment";
+    src: url("Fonts/FragmentMono-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Indie";
+    src: url("Fonts/IndieFlower-Regular.ttf");
+}
+
+.navBar{
+    font-family: "Amatic";
+    font-size: 20px;
+}
+.navE{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    list-style: none;
+}
+.navE a{
+    text-decoration: none;
+    color: inherit;
+}
+.sub{
+    font-family: "WorkSans";
+    font-size: 75px;
+    font-weight: 300;
+}
+.catcarta{
+    height: 17em;
+}
+.imagenfondo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imagenfondofija{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contacto::placeholder{
+    color: white;
+    background-color: black;
+    font-family: 'Roboto';
+}
+.contacto:hover{
+    border: 3px solid white;
+}
+.contacto{
+    height: 3em;
+    padding-left: 15px;
+    border:none;
+    border-bottom: 3px solid white;
+    color: white;
+    background-color: black;
+    font-family: 'Roboto';
+}
+.caja{
+    border: 3px solid white;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#titulo{
+    font-family: "Indie";
+    font-size: 30px;
+}
+@media screen and (max-width: 480px) { 
+    #contexto{
+        width:90%;
+    }
+}
+@media screen and (max-width: 768px) { 
+    #contexto{
+        width:80%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #contexto{
+        width:70%;
+    } 
+}
+@media screen and (max-width: 1200px) {
+    #contexto{
+        width:60%;
+    }
+}
+@media screen and (max-width: 2000px) { 
+    #contexto{
+        width:50%;
+    }
+}
